@@ -1,0 +1,160 @@
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+
+.home {
+    background-image: url(photos/hero-bank-it.png.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: 90% 70%;
+    position: relative;
+}
+
+.home-img img {
+    width: 270px;
+}
+
+.home-containt {
+    display: flex;
+    flex-direction: column;
+
+
+
+
+}
+
+/* 
+.nav-link{
+
+border-right: solid 1px rgb(255, 255, 255) !important;
+margin-right: 1rem;
+
+} */
+.nav-item {
+    position: relative;
+}
+
+.bor-r:after {
+    content: '';
+    height: 50%;
+    width: 2px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    background-color: #ffffff; // The color of your border
+}
+
+span {
+    margin-left: 6rem;
+}
+
+.head-p1:before {
+    content: "";
+    width: 118px;
+    height: 8px;
+    background: #1159e0;
+    top: 40%;
+    right: 47%;
+    position: absolute;
+}
+
+.head-p1 {
+    font-size: 9px;
+    font-weight: 600;
+    margin-left: 8rem;
+    margin-top: -1rem;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .home-img img {
+        width: 90px;
+        height: 50px;
+        right: 60px;
+        top: 35%;
+    }
+}
+
+
+.log-btn {
+    background-color: rgb(59, 59, 59);
+}
+
+.card-1 {
+
+    height: 300px;
+    background-color: rgb(218, 219, 166) !important;
+}
+
+
+
+.card-2 {
+
+    height: 300px;
+    background-color: rgb(66, 66, 66) !important;
+}
+
+
+
+.card-3 img {
+    height: 135px;
+    background-color: rgb(66, 66, 66) !important;
+}
+
+
+
+
+
+.card-4 {
+
+
+    background-color: rgb(233, 233, 233) !important;
+
+}
+
+
+.card-5 {
+
+    background-color: rgb(218, 219, 166) !important;
+
+}
+
+
+
+.mic {
+    width: 130px;
+    height: 170px;
+    margin-top: 2rem;
+}
+
+.card-6 {
+
+    background-color: rgb(233, 233, 233) !important;
+
+}
+
+.card-6 li {
+    padding: .5rem;
+}
+
+
+
+
+footer {
+    background-color: rgb(34, 34, 34);
+    padding: .3rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(33, 77, 173);
+}
